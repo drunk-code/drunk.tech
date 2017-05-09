@@ -4,7 +4,7 @@ Too drunk to code website.
 
 ## Usage
 
-To use this example, first you have to install **Middleman** in order to be able to initialize a server. Just follow the instructions provided [here](https://middlemanapp.com/basics/install/).
+To use this example, first you have to install **Middleman** in order to be able to initialize a server. Just follow the instructions provided [here](https://middlemanapp.com/basics/install).
 
 Then, you're ready to go, simply execute this on your terminal:
 
@@ -25,7 +25,7 @@ user@computer:/drunk.tech$ mgd
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/drunk-code/drunk.tech. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/drunk-code/drunk.tech. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
