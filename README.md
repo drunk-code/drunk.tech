@@ -15,6 +15,14 @@ user@computer:/drunk.tech$ bundle install
 user@computer:/drunk.tech$ middleman serve
 ```
 
+## Deploy to GH Pages
+
+Once you have finished your new code, you can deploy your changes to the GH Pages branch executing this on your terminal:
+
+```sh
+user@computer:/drunk.tech$ mgd
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/drunk-code/drunk.tech. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
