@@ -1,7 +1,5 @@
 # Drunk.tech
 
-## About
-
 Too drunk to code website.
 
 ## Usage
@@ -11,7 +9,7 @@ To use this example, first you have to install **Middleman** in order to be able
 Then, you're ready to go, simply execute this on your terminal:
 
 ```sh
-user@computer:~$ git clone git@github.com:code-drunk/drunk.tech.git
+user@computer:~$ git clone git@github.com:drunk-code/drunk.tech.git
 user@computer:~$ cd drunk.tech
 user@computer:/drunk.tech$ bundle install
 user@computer:/drunk.tech$ middleman serve
@@ -19,7 +17,7 @@ user@computer:/drunk.tech$ middleman serve
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/code-drunk/drunk.tech. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/drunk-code/drunk.tech. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 ## License
 
