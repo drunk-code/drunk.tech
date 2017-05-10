@@ -25,7 +25,7 @@ user@computer:/drunk.tech$ mgd
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/drunk-code/drunk.tech. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to both adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct and be drunk while coding.
+Bug reports and pull requests are welcome on GitHub at https://github.com/drunk-code/drunk.tech. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to both adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct and to being drunk while coding.
 
 ## License
 
