@@ -2,7 +2,12 @@
     font-size: 14px;
 
     &.navbar-brand {
+        color: $c-pink;
         letter-spacing: 3px;
         font-family: "AnotherDanger";
+    }
+
+    .black {
+        color: $c-black;
     }
 }
