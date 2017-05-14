@@ -1,0 +1,121 @@
+@import 'base/vars';
+@import 'libs/font-awesome/font-awesome';
+@import url('libs/bootstrap.min.css');
+@charset "UTF-8";
+
+@import "base/layout";
+@import "base/font";
+@import "base/utils";
+
+@import "layout/header";
+@import "layout/footer";
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: image-url("intro-bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 4em;
+    font-family: "AnotherDanger";
+    letter-spacing: 12px;
+    color: $c-pink;
+}
+
+.intro-message .black {
+    color: $c-black;
+}
+
+.intro-divider {
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    margin-top: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.8);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.manifesto {
+    margin: 50px 0;
+}
+
+.manifesto h2 {
+    margin: 0;
+    font-size: 3em;
+    font-family: "AnotherDanger";
+    letter-spacing: 9px;
+    padding-left: 20px;
+    color: $c-pink;
+}
+
+.manifesto .divider {
+    display: block;
+    margin-top: 25px;
+    border-bottom: 1px solid #444444;
+    margin-bottom: 25px;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: image-url("banner-bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+    font-family: "AnotherDanger";
+    letter-spacing: 9px;
+    margin-left: 20px;
+}
+
+.banner p {
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+}

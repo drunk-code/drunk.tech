@@ -4,12 +4,19 @@
   <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
   <!-- Use title if it's in the page YAML frontmatter -->
-  <title><%= current_page.data.title || "Middleman" %></title>
+  <title><%= current_page.data.title || "Too Drunk To Code" %></title>
 
   <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
   <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather" rel="stylesheet">
 
-  <%= stylesheet_link_tag :site %>
+  <%= stylesheet_link_tag :main %>
   <%= javascript_include_tag :all %>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
