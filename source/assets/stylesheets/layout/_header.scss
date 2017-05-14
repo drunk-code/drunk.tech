@@ -1,3 +1,8 @@
 .topnav {
     font-size: 14px;
+
+    &.navbar-brand {
+        letter-spacing: 3px;
+        font-family: "AnotherDanger";
+    }
 }

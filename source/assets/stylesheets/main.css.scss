@@ -4,6 +4,7 @@
 @charset "UTF-8";
 
 @import "base/layout";
+@import "base/font";
 @import "base/utils";
 
 @import "layout/header";
@@ -19,7 +20,7 @@
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: image-url("intro-bg.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -32,7 +33,9 @@
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    font-size: 4em;
+    font-family: "AnotherDanger";
+    letter-spacing: 12px;
 }
 
 .intro-divider {

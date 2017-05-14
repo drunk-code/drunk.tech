@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'AnotherDanger';
+  src: url('../fonts/another_danger.eot');
+  src: url('../fonts/another_danger.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'),
+    url('../fonts/another_danger.woff') format('woff'),
+    url('../fonts/another_danger.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
