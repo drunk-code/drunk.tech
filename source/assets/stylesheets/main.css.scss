@@ -36,16 +36,24 @@
     font-size: 4em;
     font-family: "AnotherDanger";
     letter-spacing: 12px;
+    color: $c-pink;
+}
+
+.intro-message .black {
+    color: $c-black;
 }
 
 .intro-divider {
     width: 400px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    margin-top: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.8);
 }
 
 @media(max-width:767px) {
